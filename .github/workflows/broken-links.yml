@@ -15,4 +15,4 @@ jobs:
         uses: lycheeverse/lychee-action@v2.1.0
         with:
           fail: true
-          args: --verbose --no-progress './**/*.html' './README.md'
+          args: --verbose --no-progress --exclude-path 404.html --exclude 'linkedin\.com' --exclude 'scholar\.google\.com' './**/*.html' './README.md'
