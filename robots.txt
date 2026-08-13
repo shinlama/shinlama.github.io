@@ -1,1 +1,2 @@
-User-agent: * Disallow: Sitemap: https://shinlama.github.io/sitemap.xml
+User-agent: *
+Allow: /
