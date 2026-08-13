@@ -20,12 +20,12 @@ description: Education and selected research experience.
     </div>
     <div class="cv-entry">
       <p class="cv-date">2018–2022</p>
-      <div><h3>Yonsei University</h3><p>B.S. in Chemistry & Medicinal Chemistry<br>B.E. in Architectural Engineering</p></div>
+      <div><h3>Yonsei University</h3><p>B.S. in Chemistry (Mirae Campus)<br>B.E. in Architectural Engineering (Sinchon Campus)</p></div>
     </div>
   </section>
 
   <section aria-labelledby="cv-research">
-    <h2 id="cv-research">selected research</h2>
+    <h2 id="cv-research">selected research experience</h2>
     <div class="cv-entry">
       <p class="cv-date">2024–present</p>
       <div><h3>Space Design & IT Lab, Yonsei University</h3><p>Research on AI-assisted spatial design, architectural image generation, and text-based quantification of spatial experience.</p></div>
@@ -33,6 +33,10 @@ description: Education and selected research experience.
     <div class="cv-entry">
       <p class="cv-date">2025–2026</p>
       <div><h3>Yonsei Data Science Lab</h3><p>Project work in 3D reconstruction, generative models, PyTorch, and recent machine learning literature.</p></div>
+    </div>
+    <div class="cv-entry">
+      <p class="cv-date">Jan–Jun 2024</p>
+      <div><h3>Technology Intelligence Lab (TiLab), Department of Industrial Engineering, Seoul National University</h3><p>Research Assistant Intern; reviewed research papers on patent analysis methods.</p></div>
     </div>
   </section>
 
