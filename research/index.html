@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Research | Jiwon Shin</title>
+    <meta name="description" content="Selected research and prototypes by Jiwon Shin.">
+    <link rel="canonical" href="https://shinlama.github.io/research/">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <script defer src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+    <script defer src="../assets/js/icons.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="site-name" href="../">Jiwon Shin</a>
+        <nav aria-label="Primary navigation">
+          <a href="../">About</a>
+          <a class="active" href="./" aria-current="page">Research</a>
+          <a href="../publications/">Publications</a>
+          <a href="../cv/">CV</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <header class="page-header">
+        <h1>Research</h1>
+        <p>Selected research and prototypes.</p>
+      </header>
+
+      <div class="research-list">
+        <article class="research-entry" id="indoor-3d">
+          <div class="research-copy">
+            <p class="entry-meta">2026 / 3D Vision</p>
+            <h2>Indoor Reconstruction with 3D Gaussian Splatting</h2>
+            <p>Compared sparse-view 3D reconstruction methods using seven to eight indoor images, with InstantSplat as a baseline. Built a Gradio interface for generating and inspecting reconstructed scenes.</p>
+            <p class="entry-tools">3D Gaussian Splatting / InstantSplat / PyTorch / Gradio</p>
+          </div>
+          <figure>
+            <img src="../assets/img/projects/3dgs-indoor-reconstruction.png" alt="Input room images, reconstructed indoor scene, and web interface" width="1600" height="900">
+          </figure>
+        </article>
+
+        <article class="research-entry" id="placeness">
+          <div class="research-copy">
+            <p class="entry-meta">2026 / Spatial Data Analysis</p>
+            <h2>Quantifying Place Experience from Spatial Reviews</h2>
+            <p>Developed an LLM-assisted pipeline that maps qualitative place reviews to ten spatial factors and produces interpretable scores. The work received a Best Presentation Award at the Korean Institute of Interior Design Conference.</p>
+            <p class="entry-tools">LLM-based text analysis / Evaluation framework / Streamlit</p>
+          </div>
+          <figure>
+            <img src="../assets/img/projects/placeness-analysis.png" alt="Web interface mapping spatial review sentences to place factors" width="1600" height="900">
+          </figure>
+        </article>
+
+        <article class="research-entry" id="architect-generation">
+          <div class="research-copy">
+            <p class="entry-meta">2024 / Generative AI</p>
+            <h2>Architect-Specific Building Image Generation</h2>
+            <p>Fine-tuned Stable Diffusion 1.5 and evaluated how reinforced data processing changes the generation of architect-specific visual characteristics. Contributed experiments and analysis to an IEEE MIT URTC paper.</p>
+            <p class="entry-tools">Stable Diffusion / Fine-tuning / Image evaluation</p>
+            <p><a class="text-link" href="https://doi.org/10.1109/URTC65039.2024.10937567">View paper <i data-lucide="arrow-up-right" aria-hidden="true"></i></a></p>
+          </div>
+          <figure>
+            <img src="../assets/img/projects/architect-generation.png" alt="Comparison of generated building images across architects and data processing stages" width="1600" height="900">
+          </figure>
+        </article>
+      </div>
+    </main>
+
+    <footer><span>&copy; 2026 Jiwon Shin</span></footer>
+  </body>
+</html>
